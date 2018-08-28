@@ -1,0 +1,60 @@
+//
+//  PrefixHeader.pch
+//  Fencheng
+//
+//  Created by lifalin on 2018/5/29.
+//  Copyright © 2018年 lifalin. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <CoreData/CoreData.h>
+
+#import "SDWebImageCompat.h"
+#import "UIImageView+WebCache.h"
+#import "MBProgressHUD.h"
+#import "AFNetworking.h"
+#import "FCAppInfo.h"
+#import <Photos/Photos.h>
+#import "CRGradientImage.h"
+#import <MBProgressHUD.h>
+#import "TBAppMacro.h"
+#import "NSString+Utilities.h"
+#import "WXApi.h"
+#import <TencentOpenAPI/TencentOAuth.h>
+#import <TencentOpenAPI/QQApiInterface.h>
+#import <TencentOpenAPI/QQApiInterfaceObject.h>
+#import "TBHttpClient.h"
+#import "Encryption.h"
+#import <AVFoundation/AVFoundation.h>
+#import <AVKit/AVKit.h>
+#import "LFLVideoPlayer.h"
+#import <UIImageView+WebCache.h>
+#import <SDWebImage/UIButton+WebCache.h>
+#import "AliyunOSSiOS.h"
+#import "FCNavViewController.h"
+#import "UILabel+Vertical.h"
+#import "UIImage+Custom.h"
+#import "HWCircleView.h"
+#import "MonitorFlow.h"
+#import <MJRefresh.h>
+#import "lflLabel.h"
+#import "UIColor+Trasform.h"
+#import <UIImage+GIF.h>
+#import "AvoidCrash.h"
+#import "NSArray+AvoidCrash.h"
+#define SCREEN_WIDTH     [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT    [UIScreen mainScreen].bounds.size.height
+
+#define kWeakSelf        __weak typeof(self) weakSelf = self
+
+
+
+#import "UIView+Extension.h"
+#import "UIImage+lfl.h"
+#endif /* PrefixHeader_pch */
